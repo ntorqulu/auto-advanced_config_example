@@ -1,7 +1,4 @@
-DeFault:
-  EXPID: a04c
-  HPCARCH: local
-experiment:
+EXPERIMENT:
   DATELIST: 20220401
   MEMBERS: "fc0"
   CHUNKSIZEUNIT: month
@@ -9,25 +6,25 @@ experiment:
   NUMCHUNKS: 2
   CHUNKINI: ''
   CALENDAR: standard
-project:
+PROJECT:
   PROJECT_TYPE: none
   PROJECT_DESTINATION: ''
-git:
+GIT:
   PROJECT_ORIGIN: ''
   PROJECT_BRANCH: ''
   PROJECT_COMMIT: ''
   PROJECT_SUBMODULES: ''
   FETCH_SINGLE_BRANCH: True
-svn:
+SVN:
   PROJECT_URL: ''
   PROJECT_REVISION: ''
-local:
+LOCAL:
   PROJECT_PATH: ''
-project_files:
+PROJECT_FILES:
   FILE_PROJECT_CONF: ''
   FILE_JOBS_CONF: ''
   JOB_SCRIPTS_TYPE: ''
-rerun:
+RERUN:
   RERUN: FALSE
   RERUN_JOBLIST: ''
 
