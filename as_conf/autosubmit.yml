@@ -1,4 +1,4 @@
-confIg:
+CONFIG:
   AUTOSUBMIT_VERSION: 4.1.16
   MAXWAITINGJOBS: 20
   TOTALJOBS: 20
@@ -8,9 +8,9 @@ confIg:
 #  wrapper_sim:
 #    TYPE: "vertical"
 #    JOBS_IN_WRAPPER: "SIM"
-mail:
+MAIL:
   NOTIFICATIONS: False
   TO:
-storage:
+STORAGE:
   TYPE: "pkl"
   COPY_REMOTE_LOGS: True
