@@ -1,5 +1,5 @@
-Platforms:
-  MaReNoStRuM4:
+PLATFORMS:
+  MARENOSTRUM4:
     TYPE: slurm
     HOST: mn1.bsc.es
     PROJECT: bsc32
@@ -9,7 +9,7 @@ Platforms:
     ADD_PROJECT_TO_HOST: False
     MAX_WALLCLOCK: '48:00'
     TEMP_DIR: ''
-  marenostrum_archive:
+  MARENOSTRUM_ARCHIVE:
     TYPE: ps
     HOST: dt02.bsc.es
     PROJECT: bsc32
@@ -18,7 +18,7 @@ Platforms:
     ADD_PROJECT_TO_HOST: False
     TEST_SUITE: False
 
-  transfer_node:
+  TRANSFER_NODE:
     TYPE: ps
     HOST: dt01.bsc.es
     PROJECT: bsc32
@@ -26,7 +26,7 @@ Platforms:
     ADD_PROJECT_TO_HOST: false
     SCRATCH_DIR: /gpfs/scratch
 
-  transfer_node_bscearth000:
+  TRANSFER_NODE_BSCEARTH000:
     TYPE: ps
     HOST: bscearth000
     USER: dbeltran
@@ -35,7 +35,7 @@ Platforms:
     QUEUE: serial
     SCRATCH_DIR: /esarchive/scratch
 
-  bscearth000:
+  BSCEARTH000:
     TYPE: ps
     HOST: bscearth000
     USER: dbeltran
@@ -43,7 +43,7 @@ Platforms:
     ADD_PROJECT_TO_HOST: false
     QUEUE: serial
     SCRATCH_DIR: /esarchive/scratch
-  nord3:
+  NORD3:
     TYPE: SLURM
     HOST: nord1.bsc.es
     PROJECT: bsc32
@@ -52,7 +52,7 @@ Platforms:
     SCRATCH_DIR: /gpfs/scratch
     MAX_WALLCLOCK: '48:00'
 
-  ecmwf-xc40:
+  ECMWF-XC40:
     TYPE: ecaccess
     VERSION: pbs
     HOST: cca
