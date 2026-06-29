@@ -3,6 +3,7 @@ CONFIG:
   SAFETYSLEEPTIME: 10
   RETRIALS: 0
   MAXWAITINGJOBS: 10
+  TOTALJOBS: 10
 #wrappers:
 #  wrapper_sim:
 #    TYPE: "vertical"
