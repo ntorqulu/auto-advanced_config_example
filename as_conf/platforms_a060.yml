@@ -1,0 +1,14 @@
+PLATFORMS:
+  SLURM-TEST:
+    TYPE: slurm
+    HOST: slurm-test
+    PROJECT: group
+    USER: root
+    QUEUE: debug
+    SCRATCH_DIR: /tmp/scratch
+    ADD_PROJECT_TO_HOST: false
+    MAX_WALLCLOCK: 00:10
+    TEMP_DIR: ''
+    MAX_PROCESSORS: 1
+    PROCESSORS_PER_NODE: 1
+    TOTALJOBS: 10
