@@ -10,11 +10,11 @@ EXPERIMENT:
   CHUNKINI: ''
   CALENDAR: standard
 PROJECT:
-  PROJECT_TYPE: none
-  PROJECT_DESTINATION: ''
+  PROJECT_TYPE: git
+  PROJECT_DESTINATION: git_project
 GIT:
-  PROJECT_ORIGIN: ''
-  PROJECT_BRANCH: ''
+  PROJECT_ORIGIN: https://github.com/ntorqulu/auto-advanced_config_example.git
+  PROJECT_BRANCH: main
   PROJECT_COMMIT: ''
   PROJECT_SUBMODULES: ''
   FETCH_SINGLE_BRANCH: true
