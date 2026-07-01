@@ -24,8 +24,8 @@ SVN:
 LOCAL:
   PROJECT_PATH: ''
 PROJECT_FILES:
-  FILE_PROJECT_CONF: ''
-  FILE_JOBS_CONF: ''
+  FILE_PROJECT_CONF: templates/ecearth3/ecearth3.yml
+  FILE_JOBS_CONF: templates/common/jobs.yml
   JOB_SCRIPTS_TYPE: ''
 RERUN:
   RERUN: false
