@@ -1,38 +1,38 @@
 JOBS:
   LOCAL_SETUP:
-    FILE: LOCAL_SETUP.sh
+    FILE: sleep 1
     PLATFORM: SLURM-TEST
     WALLCLOCK: 00:05
     RUNNING: once
   REMOTE_SETUP:
-    FILE: REMOTE_SETUP.sh
+    FILE: sleep 1
     DEPENDENCIES: LOCAL_SETUP
     WALLCLOCK: 00:05
     RUNNING: once
   INI:
-    FILE: INI.sh
+    FILE: sleep 1
     DEPENDENCIES: REMOTE_SETUP
     RUNNING: member
     WALLCLOCK: 00:05
   SIM:
-    FILE: SIM.sh
+    FILE: sleep 1
     PLATFORM: SLURM-TEST
     DEPENDENCIES: INI
     RUNNING: chunk
     WALLCLOCK: 00:05
     TOTALJOBS: -5
   POST:
-    FILE: POST.sh
+    FILE: sleep 1
     DEPENDENCIES: SIM
     RUNNING: once
     WALLCLOCK: 00:05
   CLEAN:
-    FILE: CLEAN.sh
+    FILE: sleep 1
     DEPENDENCIES: POST
     RUNNING: once
     WALLCLOCK: 00:05
   TRANSFER:
-    FILE: TRANSFER.sh
+    FILE: sleep 1
     PLATFORM: SLURM-TEST
     DEPENDENCIES: CLEAN
     RUNNING: member
